@@ -38,13 +38,14 @@ header {
   float: left;
   position: relative;
   left: 160px;
+  margin-right: 450px;
 }
 
 #menu {
-  float:right;
+  float:left;
   position: relative;
   top: 46px;
-  right: 500px;
+  /* right: 500px; */
   font-size: 16pt;
 }
 
