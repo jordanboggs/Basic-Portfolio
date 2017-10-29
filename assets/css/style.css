@@ -22,44 +22,45 @@ header {
   border: solid;
   border-color: #cccccc;
   border-top: none;
-  border-width: 2px;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
   width: 100%;
-  position: absolute;
+  height: 120px;
+  position: relative;
   top: 0;
   display: block;
-  overflow: hidden;
 }
 
-header h1 {
+#logo {
   background-color: #4aaaa5;
   font-size: 30pt;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-weight: bold;
   color: #ffffff;
-  margin-left: 160px;
   padding: 30px 30px;
   float: left;
   position: relative;
+  left: 160px;
 }
 
-header nav {
+#menu {
   float:right;
-  margin-top: 46px;
-  margin-bottom: 30px;
-  margin-right: 530px;
   position: relative;
+  top: 46px;
+  right: 500px;
   font-size: 16pt;
 }
 
-header nav a {
+#menu a {
   color: #999999;
   text-decoration: none;
 }
 
 .container {
-  width: 960px;
+  width: 960px; /*960 = 650 + 270 + 40 */
   font-size: 18px;
-  margin-top: 130px;
+  margin-top: 40px;
   margin-bottom: 130px;
   margin-left: 160px;
   margin-right: auto;
@@ -82,9 +83,8 @@ header nav a {
   border: solid;
   border-width: 2px;
   border-color: #dddddd;
-  width: 610px;
+  width: 606px;   /*650 = 606 + 2 + 2 + 20 + 20 */
   float: left;
-  margin-top: 32px;
   padding: 20px 20px;
   overflow: auto;
 }
@@ -101,10 +101,9 @@ header nav a {
   border: solid;
   border-width: 2px;
   border-color: #dddddd;
-  width: 230px;
+  width: 226px; /*270 = 226 + 2 + 2 + 20 + 20 */
   float: left;
-  margin-top: 32px;
-  margin-left: 32px;
+  margin-left: 40px;
   padding: 20px 20px;
   text-align: center;
 }
@@ -126,7 +125,7 @@ header nav a {
 
 input[type=text] {
   width: 500px;
-  padding: 12px 20px;
+  padding: 16px 20px 12px 20px;
   margin: 8px 0;
   display: inline-block;
 }
