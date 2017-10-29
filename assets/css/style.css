@@ -35,17 +35,17 @@ header {
   font-weight: bold;
   color: #ffffff;
   padding: 30px 30px;
-  float: left;
-  position: relative;
+  /* float: left; */
+  position: absolute;
   left: 160px;
-  margin-right: 450px;
+  /* margin-right: 450px; */
 }
 
 #menu {
-  float:left;
-  position: relative;
+  /* float:left; */
+  position: absolute;
   top: 46px;
-  /* right: 500px; */
+  left: 800px;
   font-size: 16pt;
 }
 
