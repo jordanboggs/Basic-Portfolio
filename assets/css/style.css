@@ -152,6 +152,7 @@ textarea{
 
 .portfolio-img img {
   margin-bottom: 40px;
+  max-width: 275px;
 }
 
 .portfolio-text {
